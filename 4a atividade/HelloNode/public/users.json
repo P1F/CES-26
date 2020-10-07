@@ -1,0 +1,14 @@
+{
+    "user1" : {
+        "name" : "Rodrigo Teixeira de Souza",
+        "mail" : "rtsouza15@gmail.com"
+    },
+    "user2" : {
+        "name" : "Edgar Toshiro Yano",
+        "mail" : "yano@ita.br"
+    },
+    "user3" : {
+        "name" : "Cristiane Pessoa da Cunha Lacaz",
+        "mail" : "chefe.dae@ita.br"
+    }
+}

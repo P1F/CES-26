@@ -1,0 +1,26 @@
+h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.data, .file {
+    width: auto;
+    position: relative;
+    display: inline-block;
+    top: 100px;
+}
+
+.data {
+    left: 25%;
+}
+
+.file {
+    left: 42%;
+}
+
+.change {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}

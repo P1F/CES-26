@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Node.JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div style="text-align: center">
+        <p>Rodrigo Teixeira de Souza</p>
+        <p>COMP-22</p>
+    </div>
+    <h1>Hello Node.JS!</h1>
+    
+    <div class="data">
+        <form action="http://localhost:8000/data_get" method="GET">
+            Nome  : <input type="text" name="name" /> <br />
+            E-mail: <input type="text" name="mail" /> <br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="file">
+        <form action="http://localhost:8000/file_upload" method="POST"
+                enctype="multipart/form-data">
+            <input type="file" name="file" size="2000" /> <br />
+            <br />
+            <input type="submit" value="Upload File" />
+        </form>
+    </div>
+
+    <div class="change">
+        <button type="button">Acessar Dados</button>
+        <p>Parágrafo Aleatório</p>
+    </div>
+</body>
+
+</html>
