@@ -1,0 +1,12 @@
+.bckgrnd {
+    background-color: greenyellow;
+    transition: background-color 2s;
+}
+
+.buttons {
+    display: none;
+}
+
+.txtcolor {
+    color: red;
+}
